@@ -11,7 +11,7 @@ Requirements
 
     The function should return an array of strings representing the items that the user still needs to purchase.
 
-Bonus
+
 
     Write a test suite to verify that your function works correctly.
 
