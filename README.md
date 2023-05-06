@@ -18,9 +18,11 @@ Bonus:
     Add tests for your components and reducers.
 
 Notes:
-
     You can use any UI library or CSS framework you like, or write your own styles.
     You don't need to use any specific libraries for search or filtering, but you should be able to explain how your implementation works.
     You can use any testing framework you like, or write your own tests.
 
+Submission
+
+Please submit your code as a GitHub repository with a README file explaining how to run your tests.
 Good luck!
