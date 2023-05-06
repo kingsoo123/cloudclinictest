@@ -1,22 +1,28 @@
-Challenge
+Task: Create a web application that fetches data from an API and displays it in a table. The application should also allow the user to search and filter the data.
 
-You are given an array of strings representing a list of items to purchase at a grocery store. You are also given a list of items that are currently in the user's cart. Write a function that returns an array of strings representing the items that the user still needs to purchase.
+Requirements:
 
-For example, given the grocery list ['apple', 'banana', 'orange', 'pear'] and the cart list ['banana', 'pear'], the function should return ['apple', 'orange'], since these are the items that are still missing from the user's cart.
-Requirements
+    The application should be built using ReactJS and Redux.
+    The API endpoint to fetch data from is https://jsonplaceholder.typicode.com/users. Fetch the data when the application loads.
+    Display the data in a table with the following columns: Name, Username, Email, Phone, and Website.
+    The table should have pagination that allows the user to navigate through the data.
+    The user should be able to search for data by entering a search term in an input field. The search should be performed on the Name and Username columns only.
+    The user should be able to filter the data by selecting a value from a dropdown list. The dropdown list should have the following options: All, Male, and Female. Filtering should be performed on the Gender column.
+    The user should be able to clear the search term and filter by clicking on a "Clear" button.
+    The application should have a clean and responsive design.
 
-    Implement the function in JavaScript using ReactJS.
+Bonus:
 
-    The function should take two arrays of strings as input: the grocery list and the cart list.
+    Implement client-side sorting of the table data.
+    Implement server-side pagination and sorting.
+    Add tests for your components and reducers.
 
-    The function should return an array of strings representing the items that the user still needs to purchase.
-
-
-
-    Write a test suite to verify that your function works correctly.
+Notes:
+    You can use any UI library or CSS framework you like, or write your own styles.
+    You don't need to use any specific libraries for search or filtering, but you should be able to explain how your implementation works.
+    You can use any testing framework you like, or write your own tests.
 
 Submission
 
 Please submit your code as a GitHub repository with a README file explaining how to run your tests.
-
 Good luck!
